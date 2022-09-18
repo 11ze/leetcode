@@ -1,11 +1,12 @@
 <?php
 
+// 1624. 两个相同字符之间的最长子字符串
+// https://leetcode.cn/problems/largest-substring-between-two-equal-characters/
+
 class Solution
 {
 
     /**
-     * 1624. 两个相同字符之间的最长子字符串
-     * https://leetcode.cn/problems/largest-substring-between-two-equal-characters/
      * @param String $s
      * @return Integer
      */

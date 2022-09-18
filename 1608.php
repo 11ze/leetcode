@@ -1,11 +1,11 @@
 <?php
 
+// 1608. 特殊数组的特征值
+// https://leetcode.cn/problems/special-array-with-x-elements-greater-than-or-equal-x/
 class Solution
 {
 
     /**
-     * 1608. 特殊数组的特征值
-     * https://leetcode.cn/problems/special-array-with-x-elements-greater-than-or-equal-x/
      * @param Integer[] $nums
      * @return Integer
      */
