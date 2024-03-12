@@ -14,27 +14,21 @@ class Solution {
       $mapping[$charOfOrder] = 0;
     }
 
-    $unOrderMapping = [];
+    $result = '';
 
     foreach (str_split($s) as $charOfS) {
       if (isset($mapping[$charOfS])) {
         $mapping[$charOfS]++;
       } else{
-        $unOrderMapping[] = $charOfS;
+        $result .= $charOfS;
       }
     }
-
-    $result = '';
 
     foreach ($mapping as $char => $count) {
       while ($count > 0) {
         $result .= $char;
         $count--;
       }
-    }
-
-    foreach ($unOrderMapping as $item) {
-      $result .= $item;
     }
 
     return $result;
